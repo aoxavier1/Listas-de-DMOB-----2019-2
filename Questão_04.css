@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+nav{
+	display: block;
+}
+
+nav ul {
+	border: 5px solid blue;
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	font-family: cursive;
+	font-weight: bold;
+
+}
+
+nav li {
+	margin-top: 0px;
+	display: inline-block;
+	padding: 2px;
+	margin: 5px;
+	transition: background-color 0.8s;
+}
+
+nav li:hover {
+	background-color: white;
+}
+
+nav h1 {
+	display: none;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	text-decoration: overline;
+}

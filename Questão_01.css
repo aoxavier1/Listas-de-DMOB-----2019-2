@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+p {
+	border-left-width: : 20em;
+	border-right-width: : 20em;
+	border-right: solid red;
+	border-left: solid green;
+	width: 60%;
+	height: 400px;
+	font-size: 12px;
+	letter-spacing: 3em;
+	word-spacing: 4ex;
+	text-align: justify;	
+	font-family: Verdana,sans-serif;
+	text-indent: 25px;
+}
+
+p:first-letter {
+	font-size: 36px;
+	color: blue;
+	text-decoration: underline;
+}
+
+p::first-line {
+	text-decoration: underline;
+	text-transform: uppercase
+}

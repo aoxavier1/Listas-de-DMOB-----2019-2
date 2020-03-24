@@ -1,0 +1,118 @@
+body{
+    width: 1200px;
+    height: 1200px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #DCDCDC;
+}
+header{
+    height: 10%;
+    width: 100%;
+    border: 0px solid black;
+    float: left;
+}
+
+nav{
+    height: 90%;
+    width: 10%;
+    border: 1px solid black;
+    float: left;
+}
+.conteudo{
+    width: 89%;
+    height: 90%;
+    border: 1px solid black;
+    float: left ;
+
+}
+footer{
+    height: 10%;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+}
+
+p {
+  border-left: 20px solid green;
+  border-right: 20px solid red;
+  width: 60%;
+  height: 400px;
+  font-size: 12px;
+  letter-spacing: 3em;
+  word-spacing: 4ex;
+  text-align: justify;
+  font-family: Verdana;
+  text-indent: 25px;
+
+}
+
+p::first-line {
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+
+p::first-letter {
+   font-size: 36px;
+   color: blue;
+   text-decoration: overline;
+}
+
+
+a#l01:link {
+text-decoration: none;
+}
+
+
+a#l02:link, a#l02:visited  {
+text-decoration:overline;
+}
+a#l02:hover {
+text-decoration: underline;
+}
+a#l02:active {
+text-decoration: line-through;
+}
+
+a#l03 {
+color:orange;
+}
+a#l03:link {
+text-decoration: none;
+}
+a#l03:hover {
+text-decoration: underline;
+color: green;
+}
+
+
+a#l04 {
+color: white;
+border: 1px solid blue;
+}
+a#l04:link {
+text-decoration: none;
+background-color: black;
+}
+a#l04:hover {
+border-style: dotted;
+border-color: black;
+background-color: #FFFFFF;
+color: black;
+}
+
+a#l05 {
+color: red;
+}
+a#l05:link {
+text-decoration: none;
+}
+a#l05:hover {
+text-decoration: underline;
+font-style: italic;
+font-weight: bold;
+color: orange;
+}
+a#l05:active {
+text-decoration: none;
+color: yellow;
+}

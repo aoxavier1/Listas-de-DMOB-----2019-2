@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+a {
+	color: red;
+	font-size: 12px;
+	font-family: verdana;
+	border-bottom: 1px dashed red;
+	text-decoration: none;
+}
+
+ul {
+	list-style-image:url("setavermelha.png");
+}
+
+a:hover {
+	color: green;
+	border-bottom: 1px dashed green;
+	list-style-image:url("setaverde.png");
+}
+
+li:hover {
+	list-style-image:url("setaverde.png");
+}
+
+a:hover {
+	color: green;
+	border-bottom: 1px dashed green;
+	list-style-image:url("setaverde.png");
+}
+
+li:hover {
+	list-style-image:url("setaverde.png");
+}
+
+a:hover {
+	color: green;
+	border-bottom: 1px dashed green;
+	list-style-image:url("setaverde.png");
+}
+
+li:hover {
+	list-style-image:url("setaverde.png");
+}
+
+a:hover {
+	color: green;
+	border-bottom: 1px dashed green;
+	list-style-image:url("setaverde.png");
+}
+
+li:hover {
+	list-style-image:url("setaverde.png");
+}
+
+a:hover {
+	color: green;
+	border-bottom: 1px dashed green;
+	list-style-image:url("setaverde.png");
+}
+
+li:hover {
+	list-style-image:url("setaverde.png");
+}
